@@ -1,0 +1,25 @@
+
+Es un lenguaje de comunicacion basado en consultas que permiten comunicar dos partes de una manera predecible.
+Es un nuevo estandar de API, Es un lenguaje basado en tipos. Es Auto-documentado, mientras vamos desarrollando se va documentado.
+Es la conexion con la base de datos, tambien se puede conectar con otras API.
+
+Se compone de dos partes:   Schema, Resolvers.
+Schema es un contrato que teiene el cliente para poder pedirlo o para ver que puede hacer el cliente.
+Siempre se ejecuta un Resolvers para dar respuestas.
+
+Diferencias entre GRAPHQL y REST.
+REST:   Solo permite exponer endpoints solo puede realizar consultas y responder.
+        Overfetchinf: Es algo que ocaciona demasiadas peticiones debido a que rest responde no los datos completos.
+        Documentacion al finalizar el desarrollo. Por eso demora mas en implementar una API. 
+
+GRAPGQL:    Expone un contrato de comunicacion, el schema le dice que puede hacer al cliente. El cliente puede enviar la consulta solo con la informacion que requiere.
+            Tiempos de respuesta mas rapidos.
+            Payloads configurados por el cliente.
+            Podemos tener toda la informacion en una sola request.
+Que herramientas vamos a utilizar. 
+        GRAPHQL-YOGA: Instala todas las herramientas para que el desarrollo pueda mas rapido.
+        PRISMA: es un orm que nos ayuda a aglizar nuestro desarrollo. Nos permite analizar nuestra base de datos o la estructura y poder crearnos nuestras relaciones rapidamente, va poder crearnos un documento que nos ayuda a ver como esta nuestra base de datos. Primas permite entender lo que ya existe para poder crear nuestra base de datos.
+        KINTO HUB: Nos permite crear todo un sistema de despliegue continuo. podemos crear diferentes servicios de nackend, catalogo de productos. es de PAGA pero tiene su capa gratuita.
+        DOCKER: Vamos a ver puntos basicos para poder crear nuestra base de datos de forma local.
+        POSTGRESQL: Es la mejor base de datos al momento.
+        APOLLO: Busca hacer el crecimiento de graphql de forma mas rapida. Provee apolo server y diferentes librerias y una plataforma. es una de las empresas que busca el crecimiento de GRAPHQL.
